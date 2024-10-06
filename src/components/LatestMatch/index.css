@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.lm-main-bg {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.section-1 {
+  align-self: center;
+}
+
+.section-2 {
+  text-align: end;
+}
+
+.small-sub-headings {
+  font-size: 25px;
+}
+
+.latest-match-img {
+  height: 200px;
+  width: 200px;
+  align-self: center;
+}
