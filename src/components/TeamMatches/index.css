@@ -58,3 +58,20 @@
 .DC {
   background-image: linear-gradient(#13418b, #f26d22);
 }
+
+.back-button {
+  padding: 10px 20px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Transition property here applies to all changes */
+}
+
+.back-button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}

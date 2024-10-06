@@ -3,6 +3,8 @@ import Loader from 'react-loader-spinner'
 
 import {Component} from 'react'
 
+import {Link} from 'react-router-dom'
+
 import LatestMatch from '../LatestMatch'
 
 import MatchCard from '../MatchCard'
@@ -78,6 +80,9 @@ class TeamMatches extends Component {
           </div>
         ) : (
           <>
+            <Link to="/">
+              <button className="back-button">Back</button>
+            </Link>
             <img
               className="banner-image-sizer"
               src={teamBannerUrl}
